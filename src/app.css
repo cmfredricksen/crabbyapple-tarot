@@ -1,5 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Share+Tech&display=swap');
+
+:root {
+    --font-headline: "Handlee", "Courier New", monospace;
+    --font-text: "Montserrat", sans-serif;
+    --font-accent: "Share Tech", "Courier New", monospace;
+}
+
 *, ::after, ::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: ;
 }
+
+body {
+    font-family: var(--font-text)
+}
+
+h1, h2, h3 {
+    font-family: var(--font-headline);
+}
+
+a, li {
+    font-family: var(--font-accent)
+}
+
