@@ -12,7 +12,9 @@
 </script>
 
 <header>
-    <h1>Agnostic Tarot</h1>
+    <a href="/">
+        <h1>Agnostic Tarot</h1>
+    </a>
     <nav>
         {#each links as {path, title}}
             <a href={path}>{title}</a>
@@ -28,10 +30,7 @@
         align-items: baseline;
     }
     nav a{
+        font-size: 1.25rem;
         margin: 0 1rem;
-        text-decoration: none;
-    }
-    a:hover {
-        color: grey;
     }
 </style>

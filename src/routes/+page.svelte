@@ -1,5 +1,8 @@
 <script>
+    import { HeroSection } from "$lib/components";
 </script>
+
+<HeroSection />
 
 <h2>Welcome to Agnostic Tarot</h2>
 

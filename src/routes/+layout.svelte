@@ -4,15 +4,14 @@
     let { children } = $props()
 </script>
 
-<Header />
 
 <main>
     {@render children()}
 </main>
+<Header />
 
 <style>
     main {
-        width: 70%;
-        margin: 2rem auto;
+        min-height: 100vh;
     }
 </style>
