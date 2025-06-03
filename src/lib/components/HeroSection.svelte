@@ -4,37 +4,43 @@
 
 <section class="hero">
     <div class="left-column">
-
+        <h1 class="hero-title">Agnostic Tarot</h1>
         <img src={LeMat} alt="Le Mat">
     </div>
     <div class="right-column">
 
-        <h2>Tarot is a Tool</h2>
-        <p>Welcome Fellow Traveler</p>
+        <h1>Welcome Fellow Traveler</h1>
     </div>
 </section>
 
 <style>
     section.hero {
         display: flex;
-        border: 2px solid green;
         height: 100vh;
+        background: linear-gradient(lavender, lavenderBlush);
+        border: 1rem solid deepskyblue;
+        
     }
     .left-column {
         display: flex;
+        flex-direction: column;
         width: 50%;
         padding:  1rem;
-        background-color: black;
         align-items: center;
         justify-content: center;
     }
     
     img {
-        border: 2px solid magenta;
+        border: 1rem solid lightskyblue;
+        outline: 1.5rem deepskyblue;
+        margin: 1rem 0;
     }
      .right-column {
+        display: flex;
+        flex-direction: column;
         width: 50%;
         padding:  1rem;
-        border: 2px solid orange;
+        align-items: center;
+        justify-content: center;
     }
 </style>
