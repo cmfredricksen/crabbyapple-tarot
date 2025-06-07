@@ -4,6 +4,13 @@
     --font-headline: "Handlee", "Courier New", monospace;
     --font-text: "Montserrat", sans-serif;
     --font-accent: "Share Tech", "Courier New", monospace;
+
+    --clr-black: #000;
+    --clr-white: #fff;
+    --clr-red: #b41131;
+    --clr-blue: #8bdefe;
+    --clr-gold: #ffd700;
+    --clr-green: #006400;
 }
 
 *, ::after, ::before {

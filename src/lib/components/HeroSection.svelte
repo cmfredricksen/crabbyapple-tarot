@@ -10,6 +10,8 @@
     <div class="right-column">
 
         <h1>Welcome Fellow Traveler</h1>
+        <p>Tarot is the perfect tool to help you find answers and solutions to the obstacles in your life. Use the cards to gain insight and an "objective" point of view.</p>
+        <p>Tarot is practical and down to Earth, it triggers your creative mind, bringing forth ideas and inspiration. Tarot also allows you to make new connections within your own life, relationships and habits.</p>
     </div>
 </section>
 
@@ -17,8 +19,7 @@
     section.hero {
         display: flex;
         height: 100vh;
-        background: linear-gradient(lavender, lavenderBlush);
-        border: 1rem solid deepskyblue;
+        background-color: var(--clr-blue);
         
     }
     .left-column {
@@ -31,8 +32,7 @@
     }
     
     img {
-        border: 1rem solid lightskyblue;
-        outline: 1.5rem deepskyblue;
+        border: 1rem solid var(--clr-green);
         margin: 1rem 0;
     }
      .right-column {
